@@ -1,4 +1,4 @@
-body {
+.body-dark {
   --color-back: #000;
   --color-fore: #fff;
   --color-accent-0: #bf8640;
@@ -7,10 +7,24 @@ body {
   --color-dim-0: #888;
   --color-dim-1: #525252;
   --color-dim-2: #313131;
-  font-family: 'Poppins';
-  font-size: 10pt;
   background-color: var(--color-back);
   color: var(--color-fore);
+}
+.body-light {
+  --color-back: #fff;
+  --color-fore: #000;
+  --color-accent-0: #996b33;
+  --color-accent-1: #c28b47;
+  --color-accent-2: #cea26c;
+  --color-dim-0: #777;
+  --color-dim-1: #a0a0a0;
+  --color-dim-2: #c6c6c6;
+  background-color: var(--color-back);
+  color: var(--color-fore);
+}
+body {
+  font-family: 'Poppins';
+  font-size: 10pt;
 }
 .hollow {
   background: none;
