@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel='stylesheet' href='../dist/style.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+.hover-a {
+  background-color: var(--color-accent-2);
+  color: var(--color-fore);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hover-a:hover {
+  background-color: var(--color-accent-0);
+  color: var(--color-back);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hover-b {
+  background-color: var(--color-dim-2);
+  color: var(--color-fore);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hover-b:hover {
+  background-color: var(--color-dim-0);
+  color: var(--color-back);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.body {
+  /*position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;*/
+}
+
+  </style>
+  </head>
+  <body class='ma-none body' style='display: flex; flex-direction: row; min-height: 100vh;'>
+    <div class='body-light ma-none pa-xl' style='flex-grow: 1; display: flex; flex-direction: row; align-items: center;'>
+      <div style='flex-grow: 1;'></div>
+      <div style='flex-grow: 0; flex-shrink: 0;'>
+        <div class='my-md pa-sm bk-accent-0 fg-back' style='width: 240px;'>accent-0</div>
+        <div class='my-md pa-sm bk-accent-1 fg-back' style='width: 240px;'>accent-1</div>
+        <div class='my-md pa-sm bk-accent-2 fg-fore' style='width: 240px;'>accent-2</div>
+        <div class='my-md pa-sm bk-fore fg-back' style='width: 240px;'>primary</div>
+        <div class='my-md pa-sm bk-dim-0' style='width: 240px;'>dim-0</div>
+        <div class='my-md pa-sm bk-dim-1' style='width: 240px;'>dim-1</div>
+        <div class='my-md pa-sm bk-dim-2' style='width: 240px;'>dim-2</div>
+        <div class='mt-xl pa-sm' style='width: 240px;'>
+          <div style='display: flex;'>
+            <div class='pa-sm bk-accent-0 fg-back' style='width: 50%; font-weight: bold;'>Lorem ipsum</div>
+            <div class='hollow' style='flex-grow: 1;'></div>
+          </div>
+          <div class='mt-sm' style='display: flex; flex-direction: column;'>
+            <div class='pa-sm bk-fore fg-back' style='flex-grow: 1;'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <!--<div class='pa-sm mt-xs bk-fore fg-back' style='flex-grow: 1;'>-->
+    <!--Aliquam feugiat ante metus, eget accumsan ante facilisis id.-->
+            <!--</div>-->
+            <div class='pa-sm mt-xs bk-dim-0 fg-back' style='flex-grow: 1;'>
+    In vel est pellentesque, varius nunc non, iaculis ligula.
+            </div>
+            <div class='pa-sm mt-xs bk-dim-1 fg-fore' style='flex-grow: 1;'>
+    Aenean fermentum, sem vel imperdiet luctus, arcu massa molestie massa.
+            </div>
+            <div class='pa-sm mt-xs bk-dim-2 fg-fore' style='flex-grow: 1;'>
+    Integer sagittis cursus viverra.
+            </div>
+          </div>
+        </div>
+        <div class='mt-lg fg-accent-0' style='width: 240px; text-align: center;'>primary menu</div>
+        <div style='display: flex; flex-direction: row; width: 240px;'>
+          <div class='hover-a mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>one</div>
+          <div class='hover-a mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>two</div>
+          <div class='hover-a mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>three</div>
+        </div>
+        <div class='mt-lg fg-dim-0' style='width: 240px; text-align: center;'>secondary menu</div>
+        <div style='display: flex; flex-direction: row; width: 240px;'>
+          <div class='hover-b mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>four</div>
+          <div class='hover-b mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>five</div>
+          <div class='hover-b mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>six</div>
+        </div>
+      </div>
+      <div style='flex-grow: 1;'></div>
+    </div>
+    <div class='body-dark ma-none pa-xl' style='flex-grow: 1; display: flex; flex-direction: row; align-items: center;'>
+      <div style='flex-grow: 1;'></div>
+      <div style='flex-grow: 0; flex-shrink: 0;'>
+        <div class='my-md pa-sm bk-accent-0 fg-back' style='width: 240px;'>accent-0</div>
+        <div class='my-md pa-sm bk-accent-1 fg-back' style='width: 240px;'>accent-1</div>
+        <div class='my-md pa-sm bk-accent-2 fg-fore' style='width: 240px;'>accent-2</div>
+        <div class='my-md pa-sm bk-fore fg-back' style='width: 240px;'>primary</div>
+        <div class='my-md pa-sm bk-dim-0' style='width: 240px;'>dim-0</div>
+        <div class='my-md pa-sm bk-dim-1' style='width: 240px;'>dim-1</div>
+        <div class='my-md pa-sm bk-dim-2' style='width: 240px;'>dim-2</div>
+        <div class='mt-xl pa-sm' style='width: 240px;'>
+          <div style='display: flex;'>
+            <div class='pa-sm bk-accent-0 fg-back' style='width: 50%; font-weight: bold;'>Lorem ipsum</div>
+            <div class='hollow' style='flex-grow: 1;'></div>
+          </div>
+          <div class='mt-sm' style='display: flex; flex-direction: column;'>
+            <div class='pa-sm bk-fore fg-back' style='flex-grow: 1;'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <!--<div class='pa-sm mt-xs bk-fore fg-back' style='flex-grow: 1;'>-->
+    <!--Aliquam feugiat ante metus, eget accumsan ante facilisis id.-->
+            <!--</div>-->
+            <div class='pa-sm mt-xs bk-dim-0 fg-back' style='flex-grow: 1;'>
+    In vel est pellentesque, varius nunc non, iaculis ligula.
+            </div>
+            <div class='pa-sm mt-xs bk-dim-1 fg-fore' style='flex-grow: 1;'>
+    Aenean fermentum, sem vel imperdiet luctus, arcu massa molestie massa.
+            </div>
+            <div class='pa-sm mt-xs bk-dim-2 fg-fore' style='flex-grow: 1;'>
+    Integer sagittis cursus viverra.
+            </div>
+          </div>
+        </div>
+        <div class='mt-lg fg-accent-0' style='width: 240px; text-align: center;'>primary menu</div>
+        <div style='display: flex; flex-direction: row; width: 240px;'>
+          <div class='hover-a mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>one</div>
+          <div class='hover-a mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>two</div>
+          <div class='hover-a mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>three</div>
+        </div>
+        <div class='mt-lg fg-dim-0' style='width: 240px; text-align: center;'>secondary menu</div>
+        <div style='display: flex; flex-direction: row; width: 240px;'>
+          <div class='hover-b mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>four</div>
+          <div class='hover-b mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>five</div>
+          <div class='hover-b mt-lg mx-xs pa-sm' style='text-align: center; flex-grow: 1;'>six</div>
+        </div>
+      </div>
+      <div style='flex-grow: 1;'></div>
+    </div>
+  </body>
+</html>
